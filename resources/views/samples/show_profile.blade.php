@@ -1,0 +1,5 @@
+@extends('layouts.practice6_layout')
+@section('title',$title)
+@section('name',$name)
+@section('address',$address)
+@section('like',$like)    

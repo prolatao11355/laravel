@@ -1,0 +1,12 @@
+@extends('layouts.practice7_layout')
+@section('title',$title)
+@section('content')
+<dl>
+    <dt>ユーザー名</dt>
+    <dd>{{$name}}</dd>
+    <dt>住所</dt>
+    <dd>{{$address}}</dd>
+    <dt>電話番号</dt>
+    <dd>{{$phone}}</dd>
+</dl>
+@endsection
