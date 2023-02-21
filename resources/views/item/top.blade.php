@@ -13,7 +13,7 @@
                     @csrf
                     @method('patch')
                 </form>
-                <br>カテゴリ:{{$item->category->name}} ({{$item->created_at}})
+                カテゴリ:{{$item->category->name}} ({{$item->created_at}})
             </div>
         @endforeach
     @empty
