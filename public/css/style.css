@@ -1,0 +1,17 @@
+.header_nav{
+  display: flex;
+  list-style: none;
+  padding-left: 0;
+}
+.header_nav li{
+  margin-right: 30px;
+}
+.error{
+  color: red;
+}
+.success{
+  color: green;
+}
+/*-----------------------------------------------------
+                  HEADER
+------------------------------------------------------*/
